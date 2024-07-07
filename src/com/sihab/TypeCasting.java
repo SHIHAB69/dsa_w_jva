@@ -11,11 +11,6 @@ public static void main(String[] args) {
         System.out.println("Lowercase");
     }else {
         System.out.println("Uppercase");
-        System.out.println("Uppercase");
-        System.out.println("Uppercase");
-        System.out.println("Uppercase");
-        System.out.println("Uppercase");
-        System.out.println("Uppercase");
     }
 
 }
