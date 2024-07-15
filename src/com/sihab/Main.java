@@ -4,8 +4,13 @@ import  java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Main obj = new Main();
+        obj.display(10); // calling display method of Main class with argument 10
 
-        System.out.println(input.nextLine());
+
     }
+void display(int d ){
+    System.out.println(d);
 }
+}
+
