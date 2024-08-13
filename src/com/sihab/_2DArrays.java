@@ -1,4 +1,4 @@
-package com.sihab.Arrays;
+package com.sihab;
 
 import java.util.Arrays;
 import java.util.Scanner;
