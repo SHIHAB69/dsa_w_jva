@@ -1,4 +1,4 @@
-package com.sihab.Arrays;
+package com.sihab;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,7 +1,6 @@
-package com.sihab.Arrays;
+package com.sihab;
 
 import java.util.Arrays;
-import java.util.Stack;
 
 public class PassingInFunctions {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.sihab.Arrays;
+package com.sihab;
 
 public class Max {
     public static void main(String[] args) {
