@@ -16,6 +16,10 @@ public class Array {
 
         System.out.println(Arrays.toString(str));
 
+        for (String name: str) {
+            System.out.println(str[Integer.parseInt(name)]);
+        }
+
     }
 
 }
