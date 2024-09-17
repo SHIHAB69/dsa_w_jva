@@ -15,7 +15,7 @@ public class Lesson1 {
     static class MethodOverLoading{
 
         MethodOverLoading(int age, String name, String color){
-            System.out.println(name + " " + color+" " + age);
+                System.out.println(name + " " + color+" " + age);
      }
 
         MethodOverLoading(int height, String food){
