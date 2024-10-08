@@ -2,7 +2,10 @@ package com.Binary_search;
 
 public class OrderAgnosticBS {
     public static void main(String[] args) {
-
+        int[] arr = {-1,0,3,5,6,12,21,22,43,44};
+        int target = 21;
+        int ans = orderAgnosticBS(arr,target);
+        System.out.println(ans);
     }
 
     static int orderAgnosticBS(int[]arr, int target){
@@ -12,7 +15,7 @@ public class OrderAgnosticBS {
         boolean isAcc = arr[start] < arr[end];
 
 
-        while(start < end){
+        while(start <= end){
             int mid = start + (end - start) / 2;
 
             if (arr[mid] == target){
@@ -22,16 +25,16 @@ public class OrderAgnosticBS {
                 if(target < arr[mid]){
                     end = mid -1;
                 }
-                else if(target > arr[mid]){
+                else {
                     start = mid + 1;
                 }
             }
 
             else{
-                if (target < arr[mid]){
-                    start = mid + 1;
-                }else if(target > arr[mid]){
+                if (target > arr[mid]){
                     end = mid - 1;
+                }else {
+                    start = mid + 1;
                 }
 
             }
